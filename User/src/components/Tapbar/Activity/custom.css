@@ -1,0 +1,7 @@
+.bg-new-member-gradient {
+    background-image: url("../../../assets/NewMember.png"),
+      linear-gradient(103deg, #FAAC48 4.77%, #F7602B 96.1%);
+    background-size: cover;
+        background-repeat: no-repeat;
+  }
+  

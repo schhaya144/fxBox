@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Other custom styles can go here */
+body {
+  font-family: 'Inter', sans-serif; /* Set default font */
+
+  background-color: #464d55;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-fxbt-gradient {
+  background-image: linear-gradient(to right, #1A4C78, #2BC6FF);
+}
+ 
+.border-fxbt-blue {
+    border-color: #2BC6FF;
+  }
+
+  .text-fxbt-blue {
+    color: #2BC6FF;
+  }

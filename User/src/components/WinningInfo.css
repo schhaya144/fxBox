@@ -1,0 +1,41 @@
+/* @keyframes slideUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.slider-container {
+  overflow: hidden;
+  height: 15rem; */
+/* position: relative;
+}
+
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  animation: slideUp 10s linear infinite;
+} */
+
+.slider-container {
+  overflow: hidden; /* Hides overflow for sliding effect */
+}
+
+/* Slide-in animation from top */
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-100%); /* Start above the viewport */
+    opacity: 0; /* Invisible at start */
+  }
+  100% {
+    transform: translateY(0); /* Slide to original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Apply the slide-in animation to each item */
+.slide-in-top {
+  animation: slideInTop 0.6s ease-out; /* Duration and easing */
+}

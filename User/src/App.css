@@ -1,0 +1,324 @@
+/* wingo games */
+/* Custom Fill Colors */
+.bg-fxbt-gradient {
+  background-image: linear-gradient(to right, #1A4C78, #2BC6FF);
+}
+  .fill-fxbt-blue {
+    fill: #2BC6FF;
+  }
+
+  .fill-fxbt-gold {
+    fill: #F2B400;
+  }
+
+  .fill-fxbt-dark {
+    fill: #1A4C78;
+  }
+
+  .fill-fxbt-black {
+    fill: #0F0F0F;
+  }
+
+  .fill-fxbt-white {
+    fill: #FFFFFF;
+  }
+
+
+
+.border-fxbt-blue {
+    border-color: #2BC6FF;
+  }
+
+  .text-fxbt-blue {
+    color: #2BC6FF;
+  }
+
+  .btn-fxbt {
+    @apply flex items-center justify-center py-2 px-6 text-lg font-semibold text-white rounded-3xl border border-fxbt-blue bg-gradient-to-r from-[#1A4C78] to-[#2BC6FF] transition-all duration-300;
+  }
+
+  .btn-fxbt:hover {
+    @apply from-[#2BC6FF] to-[#1A4C78] scale-105;
+  }
+
+
+
+.bg-gamenav-gradient {
+  background: linear-gradient(to right, rgb(249, 90, 89), rgb(255, 153, 141));
+}
+.bg-timer-gradient {
+  background: linear-gradient(to bottom, rgb(249, 90, 89), rgb(255, 153, 141));
+}
+.bg-timer-gradient2 {
+  background: #f95959;
+}
+
+.bg-wheel-events {
+  background: linear-gradient(180deg, #ff6c6b 0%, #ff4a4a 68.59%);
+  clip-path: polygon(0% 0%, 100% 0%, 96.6% 100%, 0% 100%);
+}
+
+.bg-Download-gradient {
+  background: linear-gradient(to right, #829ce7, #a375cd);
+}
+/* .bg-wheel-events-d {
+  clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+} */
+.bg-splash-gradient {
+  background-color: rgb(255, 31, 31);
+}
+
+.yellowBtn {
+  background: linear-gradient(180deg, #ffbd40 0%, #ff7f3d 100%);
+}
+.navchat-width {
+  width: 25.29px;
+}
+.red-primary {
+  background-color: #f95959;
+}
+.text-primary {
+  color: #f95959;
+}
+@media (max-width: 798px) {
+  .navchat-width {
+    width: 34.55px;
+  }
+}
+.drone-image{
+  width: 100%;
+  height: 100%;
+  background: url(./assets/HeroDrone.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.htp-bg {
+  width: 100%;
+  height: 100%;
+  background: url(./assets/diban.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-purple {
+  background-color: #c86eff;
+}
+.bg-yellow {
+  background-color: rgb(254, 170, 87);
+}
+
+:root {
+  --main-color: red;
+}
+
+.red-primary {
+  background-color: #f95959;
+}
+@media (max-width: 798px) {
+  .navchat-width {
+    width: 34.55px;
+  }
+}
+.htp-bg {
+  width: 100%;
+  height: 100%;
+  background: url(./assets/diban.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-purple {
+  background-color: #c86eff;
+}
+.bg-yellow {
+  background-color: rgb(254, 170, 87);
+}
+.triangle-bottom {
+  background: linear-gradient(
+    to bottom right,
+    var(--norm_red-color) 50%,
+    var(--norm_Purple-color) 0
+  );
+}
+
+.clip-cone {
+  clip-path: polygon(0 0, 100% 0px, 50% 60%);
+  width: 100%;
+  height: 15%;
+}
+
+.pramotion-bg {
+  /* height: 50vh; */
+  padding-top: 0.6rem;
+  background-image: url(./assets/bgpramotion.png),
+    linear-gradient(90deg, #f95959 0%, #ff9a8e 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.bg-crown {
+  width: 70%;
+  height: 100%;
+  background: url(./assets/crown.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-gray-l2 {
+  color: #768096;
+}
+
+.bg-gray-l3 {
+  background-color: #f6f6f6;
+}
+
+.bg-gray-l2 {
+  background-color: #b6bcc8;
+}
+
+.text-yellow {
+  color: #feaa57;
+}
+/* .interFontsss{
+  font-family: 'Inter';
+} */
+
+.custom-rotated-box {
+  content: '';
+  display: block;
+  margin: 3px;
+  top: 20px;
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 0.1rem;
+  transform: rotate(45deg);
+  background-color: var(--main-color);
+}
+.custom-rotated-box2 {
+  display: inline-block; /* Keeps the box inline with text */
+  width: 0.4rem; /* Adjust the size of the square */
+  height: 0.4rem;
+  background-color: rgb(255, 122, 122); /* Red color for the box */
+  transform: rotate(45deg); /* Rotates to create a diamond shape */
+  margin-right: 0.3rem; /* Spacing between box and text */
+  vertical-align: middle; /* Aligns the box vertically with text */
+}
+/* Styling for the notification point */
+.point {
+  position: absolute;
+  top: 0.21rem; /* Adjust positioning relative to the icon */
+  right: 0.99rem;
+  width: 0.3133rem; /* Size of the notification point */
+  height: 0.3133rem;
+  background-color: var(
+    --norm_red-color,
+    red
+  ); /* Use dynamic or fallback color */
+  border-radius: 50%;
+  z-index: 10; /* Ensure it appears above the icon */
+}
+
+/* Flickering effect for the notification */
+.point-flicker:before,
+.point-flicker:after {
+  content: '';
+  width: 0.5rem; /* Size of the flicker effect */
+  height: 0.5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -0.3rem;
+  margin-top: -0.3rem;
+  border-radius: 50%;
+  animation: warn 1.5s ease-out 0s infinite;
+}
+
+.point-flicker:after {
+  background-color: var(--norm_red-color, red); /* Flickering color */
+}
+
+/* Flickering animation keyframes */
+@keyframes warn {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.jackpotRuleBg {
+  background: linear-gradient(
+    180deg,
+    #f55d4d 0%,
+    #f59571 33.39%,
+    #f5a181 61.81%,
+    #ef5334 100%
+  );
+}
+.warningBox {
+  background-color: rgba(212, 91, 52, 0.5);
+}
+
+.invitationCardbg {
+  background: linear-gradient(
+    94deg,
+    #f99937 2.72%,
+    #ff6922 43.54%,
+    #ff8039 98.54%
+  );
+}
+
+/* popular games background  */
+.popular-background {
+  background-image: url(./assets/Image/daman-lottery2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-out {
+  animation: fadeInOut 1s ease-in-out;
+}
+
+
+
+.glowing-border-white {
+  position: relative;
+  border: 2px solid transparent; /* Optional: base border */
+  border-radius: 8px; /* Rounded corners, adjust as needed */
+ 
+  background: #000; /* Background color of the element */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 
+              0 0 20px rgba(255, 255, 255, 0.4), 
+              0 0 30px rgba(255, 255, 255, 0.3); /* White glow */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Optional: Glowing effect intensifies on hover */
+.glowing-border-white:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 
+              0 0 25px rgba(255, 255, 255, 0.6), 
+              0 0 35px rgba(255, 255, 255, 0.5);
+}

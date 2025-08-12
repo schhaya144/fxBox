@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"upi_id":{"$numberInt":"1"}},"name":"upi_id_1","background":true,"unique":true}],"uuid":"8137e1d75eb54a6191b45e55eda049f0","collectionName":"upis","type":"collection"}
